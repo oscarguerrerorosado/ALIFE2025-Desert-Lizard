@@ -1,4 +1,23 @@
+#ROS compilation folders
 install/
 log/
 build/
+
+# Plot outputs
+Plots/
+
+# Windows Zone Identifier files
+*:Zone.Identifier
 *.Zone.Identifier
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
