@@ -111,34 +111,34 @@ The repository includes several executable files:
 5. Open **six terminals** and run:
 
     - **Terminal 1**:
-```bash
-      ros2 launch webots_pkg mini_launch.py
-```
+    ```bash
+          ros2 launch webots_pkg mini_launch.py
+    ```
 
     - **Terminal 2**:
-```bash
-      ros2 run webots_pkg gradients
-```
+    ```bash
+          ros2 run webots_pkg gradients
+    ```
 
     - **Terminal 3**:
-```bash
-      ros2 run webots_pkg allostatic_model
-```
+    ```bash
+          ros2 run webots_pkg allostatic_model
+    ```
 
     - **Terminal 4**:
-```bash
-      ros2 run webots_pkg robot_navigation
-```
+    ```bash
+          ros2 run webots_pkg robot_navigation
+    ```
 
     - **Terminal 5**:
-```bash
-      ros2 run webots_pkg data_gathering
-```
+    ```bash
+          ros2 run webots_pkg data_gathering
+    ```
 
     - **Terminal 6**:
-```bash
-      ros2 run webots_pkg supervisor
-```
+    ```bash
+          ros2 run webots_pkg supervisor
+    ```
 
 6. Alternatively to step 5, you can run a launch file including all the rest nodes. However, prints of each node will not be visible:
 
